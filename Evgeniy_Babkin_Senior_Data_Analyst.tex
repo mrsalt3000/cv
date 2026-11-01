@@ -1,0 +1,166 @@
+\documentclass[letterpaper,11pt]{article}
+
+% ===== PACKAGES =====
+\usepackage[english]{babel}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\usepackage{hyphenat}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{verbatim}
+\input{glyphtounicode}
+
+% ===== DOCUMENT SETTINGS =====
+\setlength{\footskip}{5pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ===== MARGINS =====
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+% ===== FORMATTING =====
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\pdfgentounicode=1
+
+% ===== SECTION FORMATTING =====
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+
+% ===== CUSTOM COMMANDS =====
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \normalfont{#2} \\[0.5pt]
+      \normalfont{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+    \textbf{\Huge Evgeniy Babkin} \\ \vspace{3pt}
+    \textbf{\Large Senior Data Analyst} \\ \vspace{2pt}
+    \normalsize{Recruitment \& HR Analytics $\cdot$ DWH $\cdot$ BI $\cdot$ Automation} \\ \vspace{3pt}
+    \small
+    Khimki, Moscow, Russia
+    $|$
+    \href{mailto:mr.salt12@gmail.com}{mr.salt12@gmail.com}
+    $|$
+    \href{https://www.linkedin.com/in/evgeniy-babkin-3a4b651bb}{linkedin.com/in/evgeniy-babkin-3a4b651bb}
+    $|$
+    \href{https://github.com/mrsalt3000}{github.com/mrsalt3000}
+\end{center}
+
+% ===== SUMMARY =====
+\vspace{-4pt}
+\small {
+Senior Data Analyst with \textbf{7+ years in people analytics}, focused on \textbf{recruitment and HR analytics}: BI, \textbf{DWH design}, data modeling, and automation. At Raiffeisen Bank led the \textbf{Power BI $\rightarrow$ DataLens migration}, coordinated \textbf{ML-based candidate scoring}, modernized the HR analytics data model on \textbf{PySpark and Hadoop}, and designed \textbf{row-level security} for HR dashboards. Earlier: central recruitment analytics at \textbf{Yandex}, People \& Culture BI at \textbf{INGKA (IKEA) Russia}.
+}
+\vspace{-4pt}
+
+% ===== EXPERIENCE =====
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Senior HR Data Analyst}{Nov 2023 -- Present}
+        {Raiffeisen Bank Russia}{Moscow, Russia}
+        \resumeItemListStart
+            \resumeItem{Lead \textbf{recruitment analytics} and core \textbf{HR analytics} across BI, data modeling, and automation; led the migration from \textbf{Power BI to DataLens} --- planning, stakeholder alignment, team mentoring, and rollout of \textbf{centralized development standards}.}
+            \resumeItem{Coordinated the development of \textbf{ML-based candidate scoring}: planning, delivery management, and analytical data preparation.}
+            \resumeItem{Modernized the HR analytics \textbf{data model} using \textbf{PySpark}, \textbf{Hadoop}, and DWH principles to improve scalability and support end-to-end reporting.}
+            \resumeItem{Designed and implemented \textbf{row-level security (RLS)} for HR dashboards across the bank, enabling role-based visibility for sensitive HR data.}
+            \resumeItem{Delivered the \textbf{central HR KPI dashboard} for managers and recruitment dashboards for senior leadership; established a new \textbf{dashboard operating model} covering structure, access roles, development workflow, and stakeholder feedback.}
+            \resumeItem{Standardized dashboard \textbf{data modeling} for cross-functional use cases, defined a methodology for evaluating new \textbf{metrics} before implementation, and prioritized initiatives with \textbf{RICE}.}
+            \resumeItem{Mentored junior analysts; conducted \textbf{50+ technical interviews} and \textbf{about 20 technical assessments}.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {HR Analyst -- Developer}{Sep 2021 -- Oct 2023}
+        {Yandex --- Central Recruitment Analytics}{Moscow, Russia}
+        \resumeItemListStart
+            \resumeItem{Supported central recruitment analytics through \textbf{dashboards}, \textbf{datasets}, and \textbf{data marts}, including continuous improvement: enhancements, bug fixing, and investigation of \textbf{data expectation gaps}.}
+            \resumeItem{Designed and implemented a \textbf{sensitive data access model}, enabling secure and scalable use of recruitment analytics across stakeholder groups.}
+            \resumeItem{Automated operational workflows, including task allocation and template-based document preparation; delivered ad hoc data extracts and hiring analysis.}
+            \resumeItem{Ran \textbf{workshops} on dashboards and hiring data; consulted recruiters and stakeholders on metric interpretation and analytical logic.}
+            \resumeItem{Collaborated with \textbf{C\&B analytics} and \textbf{HR Tech} on shared dashboards and data quality; participated in \textbf{hiring HR analysts} (test assignments, assessment, interviews).}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {People Analytics \& Information Specialist}{Jul 2019 -- Sep 2021}
+        {INGKA Russia (IKEA) --- Central People Analytics}{Khimki, Russia}
+        \resumeItemListStart
+            \resumeItem{Built \textbf{dashboards and interactive reports} that gave HR and business teams visibility into people metrics for operational and management decisions.}
+            \resumeItem{Used \textbf{Power BI}, \textbf{Python}, \textbf{PostgreSQL}, and Excel to prepare data, build reports, and support recurring analytics needs.}
+            \resumeItem{Localized global analytical tools for the Russian business context and contributed to the development and revision of \textbf{People KPIs}, supporting Centers of Expertise in BI adoption.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+% ===== EARLIER EXPERIENCE =====
+\section{Earlier Experience}
+  \resumeSubHeadingListStart
+    \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Store operations, engineering \& production} & \normalfont{2008 -- 2019} \\
+    \end{tabular*}\vspace{-3pt}
+    \resumeItemListStart
+      \resumeItem{\textbf{INGKA (IKEA) Russia, 2012--2019} --- eight years in store operations: food goods receiving, restaurant team leader and \textbf{shift manager}, bistro, and sales.}
+      \resumeItem{\textbf{DESSA, 2011--2012} --- design engineer; earlier \textbf{2008--2011} --- carpentry and mechanical assembly.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+% ===== EDUCATION =====
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Novosibirsk State Technical University (NSTU)}{2011 -- 2013}
+      {Master's degree, Microelectronics and Nanoelectronics}{Novosibirsk, Russia}
+    \resumeSubheading
+      {Novosibirsk State Technical University (NSTU)}{2007 -- 2011}
+      {Bachelor's degree, Industrial Electronics}{Novosibirsk, Russia}
+  \resumeSubHeadingListEnd
+
+% ===== SKILLS =====
+\section{Skills}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Analytics \& BI:}{ SQL, Power BI, DataLens, Excel, dashboard design, data visualization, recruitment and HR KPIs} \\ \vspace*{0pt}
+
+        \textbf{Data \& DWH:}{ DWH design, dimensional data modeling, data marts, PySpark, Hadoop, PostgreSQL, ETL/ELT} \\ \vspace*{0pt}
+
+        \textbf{Governance \& mentoring:}{ row-level security (RLS), sensitive data access models, metric definitions, RICE prioritization, technical interviewing} \\
+    }}
+  \resumeSubHeadingListEnd
+
+\end{document}
