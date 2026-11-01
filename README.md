@@ -23,5 +23,5 @@ Requires `pdflatex` (TeX Live or MacTeX) with `titlesec`, `enumitem`, `tabularx`
 **Contact**
 
 - Email: mr.salt12@gmail.com
-- LinkedIn: [evgeniy-babkin-3a4b651bb](https://www.linkedin.com/in/evgeniy-babkin-3a4b651bb)
+- LinkedIn: [evgeniy-babkin](https://www.linkedin.com/in/evgeniy-babkin-3a4b651bb)
 - GitHub: [mrsalt3000](https://github.com/mrsalt3000)
