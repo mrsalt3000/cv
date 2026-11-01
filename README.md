@@ -18,8 +18,7 @@ Requires `pdflatex` (TeX Live or MacTeX) with `titlesec`, `enumitem`, `tabularx`
 
 **Layout**
 
-- Page 1: summary, experience (Raiffeisen Bank, Yandex, INGKA/IKEA)
-- Page 2: earlier experience, education, skills
+- One page: summary, experience (Raiffeisen Bank, Yandex, INGKA/IKEA), education, skills
 
 **Contact**
 
